@@ -1,5 +1,5 @@
 ### Hi there 👋
-You can call me Ozzy..
+You can call me Ozzy
 
 
 AWS Solution Architecht & DevOps Enginner
