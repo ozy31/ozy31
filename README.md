@@ -2,7 +2,7 @@
 You can call me Ozzy
 
 
-AWS Solution Architecht & DevOps Enginner
+AWS Solution Architecht & DevOps Engineer
 
 
 ## 🌐 Socials:
