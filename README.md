@@ -1,20 +1,32 @@
-### Hi there 👋
-You can call me Ozzy
+## Hi, I'm Ozan 👋
 
+Senior DevOps / Site Reliability / Platform Engineer with 10+ years of experience, based in Istanbul and working remotely.
 
-AWS Solution Architecht & DevOps Engineer
+I build and run cloud platforms for high-traffic fintech and iGaming products: multi-cluster **Amazon EKS** with disaster recovery, **GitOps with Argo CD**, **Terraform / Terragrunt** for everything, and observability with **Prometheus, Grafana, Loki and VictoriaMetrics**. Lately I've been adding LLM-assisted tooling to incident response.
 
+### 📌 Featured projects
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/a-ozan-gazi/) 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://www.gmail.com/aogazi31@gmail.com/)
+| Project | What it shows |
+|---|---|
+| [terraform-aws-eks-platform](https://github.com/ozy31/terraform-aws-eks-platform) | Production-style EKS platform: VPC, EKS, Karpenter, platform add-ons and Argo CD bootstrap; Terragrunt live layout for dev / prod / prod-dr |
+| [gitops-multicluster-dr](https://github.com/ozy31/gitops-multicluster-dr) | Argo CD ApplicationSet matrix generators across environments and clusters, plus `drswitch`, a Go CLI for single-switch DR failover |
+| [aiops-incident-assistant](https://github.com/ozy31/aiops-incident-assistant) | Alertmanager webhook → logs and metrics context → LLM incident summary in Slack, with secret redaction |
+| [platform-ci-templates](https://github.com/ozy31/platform-ci-templates) | Reusable GitHub Actions, GitLab CI, Bitbucket Pipelines and Jenkins templates: OIDC to AWS, SBOM, image signing, GitOps promotion |
+| [k8s-observability-stack](https://github.com/ozy31/k8s-observability-stack) | GitOps-ready Prometheus, Grafana, Loki and VictoriaMetrics with SLO burn-rate alerts, rule unit tests and dashboards |
+| [tf-modules](https://github.com/ozy31/tf-modules) | Small, readable Terraform modules: VPC, EKS, add-ons with IRSA, Argo CD and RDS with External Secrets |
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) 	![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)  ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)  ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ozy31&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=ozy31&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ozy31&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+### 🧰 Toolbox
 
----
-[![](https://visitcount.itsvg.in/api?id=ozy31&icon=0&color=0)](https://visitcount.itsvg.in)
+**Cloud:** AWS (EKS, EC2, VPC, IAM, MSK, RDS), Azure (AKS, Azure DevOps), Cloudflare
+**Kubernetes:** EKS, AKS, Helm, Karpenter, KEDA, Cilium, Argo CD
+**IaC:** Terraform, Terragrunt, OpenTofu
+**CI/CD:** GitHub Actions, Bitbucket Pipelines, GitLab CI, Jenkins, TeamCity, Octopus Deploy
+**Observability:** Prometheus, Grafana, Loki, VictoriaMetrics, Elasticsearch, PagerDuty
+**Data and messaging:** Kafka, RabbitMQ, MongoDB, PostgreSQL, SQL Server
+**Languages:** Python, Go, Bash
+
+**Certifications:** HashiCorp Terraform Associate · CKAD · AWS Cloud Practitioner
+
+### 📫 Contact
+
+[LinkedIn](https://linkedin.com/in/a-ozan-gazi) · aogazi31@gmail.com
