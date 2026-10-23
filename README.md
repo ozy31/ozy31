@@ -1,6 +1,6 @@
 ## Hi, I'm Ozan 👋
 
-Senior DevOps / Site Reliability / Platform Engineer with 10+ years of experience, based in Istanbul and working remotely.
+Senior DevOps / Site Reliability / Platform Engineer with 10+ years of experience, Turkey and working remotely.
 
 I build and run cloud platforms for high-traffic fintech and iGaming products: multi-cluster **Amazon EKS** with disaster recovery, **GitOps with Argo CD**, **Terraform / Terragrunt** for everything, and observability with **Prometheus, Grafana, Loki and VictoriaMetrics**. Lately I've been adding LLM-assisted tooling to incident response.
 
