@@ -9,6 +9,7 @@ I build and run cloud platforms for high-traffic fintech and iGaming products: m
 | Project | What it shows |
 |---|---|
 | [terraform-aws-eks-platform](https://github.com/ozy31/terraform-aws-eks-platform) | Production-style EKS platform: VPC, EKS, Karpenter, platform add-ons and Argo CD bootstrap; Terragrunt live layout for dev / prod / prod-dr |
+| [terraform-aws-eks-ai-cluster](https://github.com/ozy31/terraform-aws-eks-ai-cluster) | GPU / LLM inference on EKS: Karpenter GPU NodePools, NVIDIA device plugin + DCGM alerts, S3 model store via Mountpoint, vLLM scaled by KEDA on request queue depth |
 | [gitops-multicluster-dr](https://github.com/ozy31/gitops-multicluster-dr) | Argo CD ApplicationSet matrix generators across environments and clusters, plus `drswitch`, a Go CLI for single-switch DR failover |
 | [aiops-incident-assistant](https://github.com/ozy31/aiops-incident-assistant) | Alertmanager webhook → logs and metrics context → LLM incident summary in Slack, with secret redaction |
 | [platform-ci-templates](https://github.com/ozy31/platform-ci-templates) | Reusable GitHub Actions, GitLab CI, Bitbucket Pipelines and Jenkins templates: OIDC to AWS, SBOM, image signing, GitOps promotion |
