@@ -4,6 +4,7 @@ Senior DevOps / Site Reliability / Platform Engineer with 10+ years of experienc
 
 I build and run cloud platforms for high-traffic fintech and iGaming products: multi-cluster **Amazon EKS** with disaster recovery, **GitOps with Argo CD**, **Terraform / Terragrunt** for everything, and observability with **Prometheus, Grafana, Loki and VictoriaMetrics**. Lately I've been adding LLM-assisted tooling to incident response.
 
+
 ### 📌 Featured projects
 
 | Project | What it shows |
