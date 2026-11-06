@@ -11,6 +11,7 @@ I build and run cloud platforms for high-traffic fintech and iGaming products: m
 |---|---|
 | [terraform-aws-eks-platform](https://github.com/ozy31/terraform-aws-eks-platform) | Production-style EKS platform: VPC, EKS, Karpenter, platform add-ons and Argo CD bootstrap; Terragrunt live layout for dev / prod / prod-dr |
 | [terraform-azure-aks-platform](https://github.com/ozy31/terraform-azure-aks-platform) | Self-service AKS platform: Entra ID + namespace-scoped Azure RBAC, workload identity, Node Auto-Provisioning, Flux via the AKS extension, Istio Gateway API, Gatekeeper policies tested with gator, one-file team onboarding |
+| [terraform-azure-landing-zone](https://github.com/ozy31/terraform-azure-landing-zone) | Azure landing zone: CAF management groups, policy-as-code by management group, hub with Azure Firewall + DNS Private Resolver, subscription vending with azapi from one YAML file per team |
 | [terraform-aws-eks-ai-cluster](https://github.com/ozy31/terraform-aws-eks-ai-cluster) | GPU / LLM inference on EKS: Karpenter GPU NodePools, NVIDIA device plugin + DCGM alerts, S3 model store via Mountpoint, vLLM scaled by KEDA on request queue depth |
 | [terraform-cloudflare-edge](https://github.com/ozy31/terraform-cloudflare-edge) | Cloudflare edge as code: WAF + OWASP, geo-fencing with partner bypass, rate limits, Logpush to tiered S3 and OpenSearch, Tunnel + Access for internal tools and a self-hosted LLM, AI Gateway |
 | [eks-to-onprem-repatriation](https://github.com/ozy31/eks-to-onprem-repatriation) | Phased EKS -> on-prem migration: Talos, Cilium BGP, Rook-Ceph, CloudNativePG logical replication with a rollback path, Strimzi MirrorMaker 2, Cloudflare weighted traffic shift, TCO model |
@@ -22,7 +23,7 @@ I build and run cloud platforms for high-traffic fintech and iGaming products: m
 
 ### 🧰 Toolbox
 
-**Cloud:** AWS (EKS, EC2, VPC, IAM, MSK, RDS), Azure (AKS, Azure DevOps), Cloudflare
+**Cloud:** AWS (EKS, EC2, VPC, IAM, MSK, RDS), Azure (AKS, Azure DevOps, Azure Policy, Azure Firewall), Cloudflare
 **Kubernetes:** EKS, AKS, Helm, Karpenter, KEDA, Cilium, Argo CD
 **IaC:** Terraform, Terragrunt, OpenTofu
 **CI/CD:** GitHub Actions, Bitbucket Pipelines, GitLab CI, Jenkins, TeamCity, Octopus Deploy
