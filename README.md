@@ -13,10 +13,13 @@ I build and run cloud platforms for high-traffic fintech and iGaming products: m
 | [terraform-azure-aks-platform](https://github.com/ozy31/terraform-azure-aks-platform) | Self-service AKS platform: Entra ID + namespace-scoped Azure RBAC, workload identity, Node Auto-Provisioning, Flux via the AKS extension, Istio Gateway API, Gatekeeper policies tested with gator, one-file team onboarding |
 | [terraform-azure-landing-zone](https://github.com/ozy31/terraform-azure-landing-zone) | Azure landing zone: CAF management groups, policy-as-code by management group, hub with Azure Firewall + DNS Private Resolver, subscription vending with azapi from one YAML file per team |
 | [terraform-aws-eks-ai-cluster](https://github.com/ozy31/terraform-aws-eks-ai-cluster) | GPU / LLM inference on EKS: Karpenter GPU NodePools, NVIDIA device plugin + DCGM alerts, S3 model store via Mountpoint, vLLM scaled by KEDA on request queue depth |
+| [k8s-postgres-platform](https://github.com/ozy31/k8s-postgres-platform) | PostgreSQL on Kubernetes with CloudNativePG: three zones, quorum commit, PgBouncer, PITR, major upgrades and a Helm chart for tenant databases; failover (~16 s, zero lost writes) measured in CI |
 | [terraform-cloudflare-edge](https://github.com/ozy31/terraform-cloudflare-edge) | Cloudflare edge as code: WAF + OWASP, geo-fencing with partner bypass, rate limits, Logpush to tiered S3 and OpenSearch, Tunnel + Access for internal tools and a self-hosted LLM, AI Gateway |
+| [cloudflare-edge-platform](https://github.com/ozy31/cloudflare-edge-platform) | Cloudflare in front of Kubernetes with no public load balancer: outbound-only Tunnel with kind e2e checks, WAF and rate-limit rules as reviewed YAML with 29 Terraform tests, Logpush to R2 queried with DuckDB, incident runbooks |
 | [eks-to-onprem-repatriation](https://github.com/ozy31/eks-to-onprem-repatriation) | Phased EKS -> on-prem migration: Talos, Cilium BGP, Rook-Ceph, CloudNativePG logical replication with a rollback path, Strimzi MirrorMaker 2, Cloudflare weighted traffic shift, TCO model |
 | [gitops-multicluster-dr](https://github.com/ozy31/gitops-multicluster-dr) | Argo CD ApplicationSet matrix generators across environments and clusters, plus `drswitch`, a Go CLI for single-switch DR failover |
 | [aiops-incident-assistant](https://github.com/ozy31/aiops-incident-assistant) | Alertmanager webhook → logs and metrics context → LLM incident summary in Slack, with secret redaction |
+| [postgres-ops-agent](https://github.com/ozy31/postgres-ops-agent) | Read-only MCP server and Claude Code skill for Postgres incident triage: least-privilege identities, human-approved actions with an audit log, fault-injection evals |
 | [platform-ci-templates](https://github.com/ozy31/platform-ci-templates) | Reusable GitHub Actions, GitLab CI, Bitbucket Pipelines and Jenkins templates: OIDC to AWS, SBOM, image signing, GitOps promotion |
 | [k8s-observability-stack](https://github.com/ozy31/k8s-observability-stack) | GitOps-ready Prometheus, Grafana, Loki and VictoriaMetrics with SLO burn-rate alerts, rule unit tests and dashboards |
 | [tf-modules](https://github.com/ozy31/tf-modules) | Small, readable Terraform modules: VPC, EKS, add-ons with IRSA, Argo CD and RDS with External Secrets |
@@ -28,7 +31,7 @@ I build and run cloud platforms for high-traffic fintech and iGaming products: m
 **IaC:** Terraform, Terragrunt, OpenTofu
 **CI/CD:** GitHub Actions, Bitbucket Pipelines, GitLab CI, Jenkins, TeamCity, Octopus Deploy
 **Observability:** Prometheus, Grafana, Loki, VictoriaMetrics, Elasticsearch, PagerDuty
-**Data and messaging:** Kafka, RabbitMQ, MongoDB, PostgreSQL, SQL Server
+**Data and messaging:** Kafka, RabbitMQ, MongoDB, PostgreSQL (CloudNativePG), SQL Server
 **Languages:** Python, Go, Bash
 
 **Certifications:** HashiCorp Terraform Associate · CKAD · AWS Cloud Practitioner
