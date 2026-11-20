@@ -26,6 +26,7 @@ I build and run cloud platforms for high-traffic fintech and iGaming products: m
 | [postgres-ops-agent](https://github.com/ozy31/postgres-ops-agent) | Read-only MCP server and Claude Code skill for Postgres incident triage: least-privilege identities, human-approved actions with an audit log, fault-injection evals |
 | [platform-ci-templates](https://github.com/ozy31/platform-ci-templates) | Reusable GitHub Actions, GitLab CI, Bitbucket Pipelines and Jenkins templates: OIDC to AWS, SBOM, image signing, GitOps promotion |
 | [k8s-observability-stack](https://github.com/ozy31/k8s-observability-stack) | GitOps-ready Prometheus, Grafana, Loki and VictoriaMetrics with SLO burn-rate alerts, rule unit tests and dashboards |
+| [slo-as-code](https://github.com/ozy31/slo-as-code) | SLOs as YAML compiled by a Go CLI into Prometheus recording rules, multi-window multi-burn-rate page and ticket alerts, PrometheusRule CRs and Grafana dashboards; promtool tests prove alerts fire on fast burns, stay quiet on slow ones and resolve after recovery |
 | [tf-modules](https://github.com/ozy31/tf-modules) | Small, readable Terraform modules: VPC, EKS, add-ons with IRSA, Argo CD and RDS with External Secrets |
 
 ### 🧰 Toolbox
